@@ -1,3 +1,250 @@
+
+@media(max-width: 768px){
+    
+    /* Põe o logo do Slack à esquerda da tela */
+    #nav-box{
+
+        display: flex;
+        background-color: #540B51;
+        justify-content: flex-start;
+        padding: 2rem;;        
+    }
+
+    #slack-logo{
+
+        height: 3rem;
+    }
+
+    /* Esconde as listas que estão dentro do nav */
+    nav ul{
+        
+        display: none;
+    }
+
+    /* Põe os botões de pesquisa e menu à esquerda */
+    .div-top{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        background-color: #540B51;
+        
+        width: 100%;
+    }
+
+    .button-top{
+
+        background-color: #540B51;
+        border:0;
+    }
+
+    .img-top{
+
+        display: flex;
+        background-color: #540B51;
+        
+    }
+
+    /* Utiliza Flex box para alinhar as tags internas. */
+    .header-box{
+
+        display: flex;
+        background-color: #540B51;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+    }
+
+    .div-great-teamwork {
+
+        display: flex;
+        background-color: #540B51;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .div-great-teamwork > h1 {
+    
+        color: white;
+        size: 50px;
+        margin: 0 auto;
+        text-align:center;
+    
+    }
+
+    .div-great-teamwork p {
+
+        color: orange;
+        width: 50rem;
+        padding: 0 5.5rem 1rem;
+        text-align: start;
+    }  
+
+
+    .signup-buttons{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 2rem;
+        
+    }
+
+    #signup-email {
+
+        background-color: white;
+        border: 0ch;
+        padding: 5%;
+        border-radius: 0.5rem;
+        color: #540B51;
+        text-transform:uppercase;
+        font-weight: 900;
+        
+    }
+/* botão para logar com a conta do google */
+    #signup-google {
+
+        display: flex;
+        background-color: #4285F4;
+        /* border: 0ch; */
+        /* padding: 0.5%; */
+        border-radius: 0.5rem;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    #signup-google > span{
+
+        color: white;
+        text-transform:uppercase;
+        size:18px;
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    #signup-google-img {
+
+        display: flex;
+        justify-content: flex-start;
+        height: 5rem;
+        border: 0ch;
+        background-color: white;
+        margin: 1rem -1rem 0rem 0.5rem;
+        
+        
+        
+    }
+
+    .img-hero {
+
+       height: 40rem;
+       width: 47rem;  
+    }
+
+    section > p {
+
+        color: black;
+        font-weight: 900;
+        font-size:xx-large;
+        margin: 0 0 0 8rem;
+        
+        
+    }
+
+    .trusted{
+
+        display: flex;
+        justify-content: space-around;
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        
+                
+    }
+
+    #trusted-airbnb,
+    #trusted-nasa,
+    #trusted-uber,
+    #trusted-target,
+    #trusted-nyt,
+    #trusted-spotify{
+
+        height: 4rem;
+        padding: 2rem 2rem 0rem 0rem;
+    }
+
+    #div-connectedness{
+
+        margin: 0;
+        padding: 0;
+    }
+
+    #connectedness {
+
+        
+        height: 50rem;
+        width: 47rem;
+    }
+
+    #text-trusted{
+
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(243, 229, 245);
+        height: 10rem;
+        justify-items: flex-start;
+    }
+    #text-trusted > h2{
+    
+        
+    }
+
+    .flexibility{
+
+        display: flex;
+        flex-flow: row wrap-reverse;
+        margin: 0;
+        padding: 0;
+
+
+    }
+    .text-flexibility{
+
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(243, 229, 245);
+        height: 10rem;
+        justify-items: flex-start;
+
+    }
+    #img-flexibility{
+
+        height: 40rem;
+        width: 47rem;
+    }
+
+    .speed{
+
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
+    #speed-mobile{
+
+        height: 40rem;
+        width: 47rem;
+    }
+
+    #text-speed{
+
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(243, 229, 245);
+        height: 10rem;
+        justify-items: flex-start;
+
+    }
+}
+
 /*
 background purple: #540B51
 background ivory: #F3EAE2
